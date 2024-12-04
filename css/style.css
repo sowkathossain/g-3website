@@ -1,0 +1,150 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100..900&display=swap');
+
+/* Basic Style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+
+/* Common CSS */
+body {
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+}
+
+main {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+}
+
+.btn {
+    background: #FF900E;
+    color: #fff;
+    padding: 15px 20px;
+    display: inline-block;
+    font-weight: 600;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+/* typography */
+h2 {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header Area */
+.header {
+    background-color: #FFF4E7;
+    padding: 20px 0;
+}
+
+nav,
+.banner-area {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+nav>h3,
+.banner-heading>h2 {
+    color: #131313;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav>ul li {
+    list-style: none;
+    margin-right: 35px;
+}
+
+nav>ul li:last-child {
+    list-style: none;
+    margin-right: 20px;
+}
+
+nav>ul li a {
+    text-transform: capitalize;
+    font-size: 1.10rem;
+    color: #424242;
+    font-weight: 500;
+}
+
+.banner-heading {
+    width: 70%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.banner-heading h2 span {
+    display: block;
+}
+
+.banner-heading p {
+    margin: 30px 0;
+}
+
+/* Feature Area */
+.feature-area {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6%;
+    justify-content: center;
+    padding: 50px;
+    align-items: center;
+}
+
+
+.portfolio {
+    flex-basis: 47%;
+}
+
+.portfolio img {
+    width: 49%;
+}
+
+.title-heading {
+    flex-basis: 47%;
+}
+
+.title-heading p {
+    margin: 20px 0;
+}
+
+.title-heading h3 {
+    font-weight: 500;
+}
+
+.title-heading h3 span {
+    color: #FF900E;
+}
